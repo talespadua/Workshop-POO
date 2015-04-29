@@ -8,6 +8,10 @@ public class Main {
         Personagem manolo = new Personagem("Manolo", 0, 1);
         Personagem mauricio = new Personagem("mauricio", 10, 11);
 
+        Npc jebediah = new Npc("Jebediah", 5, 5, 100);
+        jebediah.souEstupido();
+        jebediah.printName();
+
         manolo.setVidas(5);
         manolo.printName();
         mauricio.printName();
