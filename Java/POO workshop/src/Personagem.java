@@ -19,7 +19,6 @@ public class Personagem{
         this.nome = nome;
         this.posX = posX;
         this.posY = posY;
-        this.printName();
     }
 
     public int getPosX(){

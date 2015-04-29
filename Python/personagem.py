@@ -18,7 +18,6 @@ class Personagem(object):
         self.nome = nome
         self.__posX = posX
         self.__posY = posY
-        self.print_name();
 
     def print_name(self):
         print("My name is: " + self.nome)
@@ -40,3 +39,7 @@ class Npc(Personagem):
 
     def get_estupidez(self):
         return self.estupidez
+
+    def print_name(self):
+        Personagem.print_name(self)
+        self.sou_estupido()
